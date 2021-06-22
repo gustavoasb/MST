@@ -1,0 +1,29 @@
+grafo.txt:
+MST com custo: 75
+Economia vs malha totalmente conexa: 90
+MST é única
+
+grafo2.txt:
+MST com custo: 53
+Economia vs malha totalmente conexa: 73
+MST não é única
+
+grafo3.txt:
+MST com custo: 117
+Economia vs malha totalmente conexa: 209
+MST não é única
+
+grafo4.txt:
+MST com custo: 15
+Economia vs malha totalmente conexa: 14
+MST é única
+
+grafo5.txt:
+MST com custo: 12
+Economia vs malha totalmente conexa: 7
+MST não é única
+
+grafo6.txt:
+MST com custo: 18
+Economia vs malha totalmente conexa: 18
+MST não é única

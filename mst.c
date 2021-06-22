@@ -31,5 +31,6 @@ int main(int argc, char** argv){
         free_list(vertices[i].list);
     }
     free(vertices);
+
     return 0;
 }

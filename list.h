@@ -30,12 +30,14 @@ typedef struct List{
 /* returns a brand new list */
 List* create_list(); 
 /* checks if the list is empty, returning true or false */
-int _empty_list(List* list); 
+int empty_list(List* list); 
 /* inserts a edge at the end of a adjancecy list */
 void insert_list(Edge* newEdge,List* list);
 /* prints the entire vertex adjacency list */
 void _print_list(List* list);
 /* deallocate the memory of a list and its elements */
 void free_list(List* list); 
+/* removes a edge from the list comparing origin and destination */
+void remove_list(List* list, int origin, int destination);
 
 #endif

@@ -81,8 +81,8 @@ void adjust_mst(Edge* MST, int size){
 void print_output(int mstCost, int graphCost, int unique){
     printf("MST com custo: %d\n", mstCost);
     printf("Economia vs malha totalmente conexa: %d\n", (graphCost-mstCost));
-    if(unique == TRUE) printf("MST é única");
-    if(unique == FALSE) printf("MST não é única");
+    if(unique == TRUE) printf("MST é única\n");
+    if(unique == FALSE) printf("MST não é única\n");
 }
 
 void print_output_file(Edge* MST,char* argv, int size){
